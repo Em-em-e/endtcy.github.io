@@ -1,143 +1,113 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>CODER-LI的博客</title>
-<meta name="keywords" content="个人博客,李亮个人博客,李亮" />
-<meta name="description" content="寻梦主题的个人博客模板，优雅、稳重、大气,低调。" />
-<link href="css/base.css" rel="stylesheet">
-<link href="css/index.css" rel="stylesheet">
-<!--[if lt IE 9]>
-<script src="js/modernizr.js"></script>
-<![endif]-->
+
+    <title> Not A Number</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Not A Number, 数非数, 数字解迷, puzzle game, number">
+    <meta name="description" content="Not A Number! 一起找到最有趣的数字! ">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+<!--     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'> -->
+    <link rel="stylesheet" type="text/css" href="nan.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="level-select.css" media="all" />
+    <script type="text/javascript" src="javascript/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="javascript/read-css.js"></script>
+
+
+    <script type="text/javascript" src="javascript/rrshare.js"></script>
+
+
+    <script type="text/javascript" src="javascript/constants.js" charset="utf-8"> </script>
+    <script type="text/javascript" src="javascript/game.js" charset="utf-8"> </script>
+    <script type="text/javascript" src="javascript/analyzer.js" charset="utf-8"> </script>
+    <script type="text/javascript" src="javascript/grid.js" charset="utf-8"> </script>
+    <script type="text/javascript" src="javascript/mouse.js" charset="utf-8"> </script>
+    <script type="text/javascript" src="javascript/elements.js" charset="utf-8"> </script>
+    <script type="text/javascript" src="javascript/audioPlayer.js" charset="utf-8"> </script>
+    <script type="text/javascript" src="javascript/rotateTask.js" charset="utf-8"> </script>
+
+
 </head>
 <body>
-<header>
-  <div id="logo"><a href="/"></a></div>
-   <nav class="topnav" id="topnav"><a href="index.html"><span>首页</span><span class="en">Protal</span></a><a href="about.html"><span>关于我</span><span class="en">About</span></a><a href="moodlist.action"><span>碎言碎语</span><span class="en">Doing</span></a><a href="share.html"><span>模板分享</span><span class="en">Share</span></a><a href="knowledge.html"><span>学无止境</span><span class="en">Learn</span></a><a href="book.html"><span>留言版</span><span class="en">Gustbook</span></a>
-  </nav>
-</header>
-<div class="banner">
-  <section class="box">
-    <ul class="texts">
-      <p>编程是一种美德</p>
-      <p>是促使一个人不断向上发展的一种原动力</p>
-      <p></p>
-    </ul>
-    <div class="avatar"><a href="http://user.qzone.qq.com/731556624" target="_blank"><span>李亮</span></a> </div>
-  </section>
-</div>
-<div class="template">
-  <div class="box">
-    <h3>
-      <p><span>个人博客</span>模板 Templates</p>
-    </h3>
-    <ul>
-      <li><a href="/"  target="_blank"><img src="images/01.jpg"></a><span>仿新浪博客风格・梅――古典个人博客模板</span></li>
-      <li><a href="/" target="_blank"><img src="images/02.jpg"></a><span>黑色质感时间轴html5个人博客模板</span></li>
-      <li><a href="/"  target="_blank"><img src="images/03.jpg"></a><span>Green绿色小清新的夏天-个人博客模板</span></li>
-      <li><a href="/" target="_blank"><img src="images/04.jpg"></a><span>女生清新个人博客网站模板</span></li>
-      <li><a href="/"  target="_blank"><img src="images/02.jpg"></a><span>黑色质感时间轴html5个人博客模板</span></li>
-      <li><a href="/"  target="_blank"><img src="images/03.jpg"></a><span>Green绿色小清新的夏天-个人博客模板</span></li>
-    </ul>
-  </div>
-</div>
-<article>
-  <h2 class="title_tj">
-    <p>文章<span>推荐</span></p>
-  </h2>
-  <div class="bloglist left">
-  
-  <h3>Struts2自定义类型转换器  </h3>
-    <figure><img src="images/000.jpg"></figure>
-    <ul>
-      <p>众所周知，java有八大基本的类型，struts2能对这八大基本类型以及String、Date等常用类型提供自动转换。但是，仅仅这些远远不能满足我们的需要...</p>
-      <a title="/" href="blog004.html" target="_blank" class="readmore">阅读全文>></a>
-    </ul>
-    <p class="dateview"><span>2016-01-28</span><span>作者：李亮</span><span>个人博客：[<a href="/news/life/">程序人生</a>]</span></p>
-  
-  
-  <h3>当一个线程进入一个对象的一个synchronized方法后，其它线程是否可进入此对象的其它方法? </h3>
-    <figure><img src="images/000.jpg"></figure>
-    <ul>
-      <p>日前在网上见到一道Java笔试试题，如题所述。给出的答案如下：
-答：不能，一个对象的一个synchronized方法只能由一个线程访问。本人认为有些所答非所问。故写了两个demo进行测试。发现答案要分三种情况讨论。
-...</p>
-      <a title="/" href="blog003.html" target="_blank" class="readmore">阅读全文>></a>
-    </ul>
-    <p class="dateview"><span>2015-11-22</span><span>作者：李亮</span><span>个人博客：[<a href="/news/life/">程序人生</a>]</span></p>
- 
-  <h3>MySQL数据库中文乱码的解决方法 </h3>
-    <figure><img src="images/002.jpg"></figure>
-    <ul>
-      <p>MySQL数据库的字符编码是最让初学者头疼的一个问题了，最好的解决方案是数据库中一系列的编码都设置为统一的编码格式，具体操作方式...</p>
-      <a title="/" href="blog002.html" target="_blank" class="readmore">阅读全文>></a>
-    </ul>
-    <p class="dateview"><span>2015-11-22</span><span>作者：李亮</span><span>个人博客：[<a href="/news/life/">程序人生</a>]</span></p>
-   
-    <h3>阿里云Linux服务器下配置tomcat详解</h3>
-    <figure><img src="images/001.jpg"></figure>
-    <ul>
-      <p>前段时间在阿里云申请了个云服务器，配置了半天终于把自己的网站搭建成功了，在这里我把自己配置安装过程总结后跟大家分享一下，相互学习...</p>
-      <a title="/" href="blog001.html" target="_blank" class="readmore">阅读全文>></a>
-    </ul>
-    <p class="dateview"><span>2015-11-15</span><span>作者：李亮</span><span>个人博客：[<a href="/news/life/">程序人生</a>]</span></p>
-    
 
+  <div id="title" style="position:relative;">
+    <div id = "title-1" class = "title" style="color: #897; line-height: 80%; font-size: 192px; margin: 20px 0 0 0; text-shadow: 3px 3px 10px hsla(0, 0%, 0%, 0.2)">NAN</div>
+    <div id = "title-3" class = "title" style="color: #585; line-height: 90%; font-size: 40px; text-shadow: 3px 3px 10px hsla(0, 0%, 0%, 0.2);">A Game for Nannan</div>
 
   </div>
-  <aside class="right">
-    <div class="weather"><iframe width="250" scrolling="no" height="60" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=12&icon=1&num=1"></iframe></div>
-                         <!--<iframe width="250" scrolling="no" height="60" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=12&icon=1&num=1"></iframe> -->
-    <div class="news">
-    <h3>
-      <p>最新<span>文章</span></p>
-    </h3>
-    <ul class="rank">
-      <li><a href="/" title="Column 三栏布局 个人网站模板" target="_blank">Column 三栏布局 个人网站模板</a></li>
-      <li><a href="/" title="with love for you 个人网站模板" target="_blank">with love for you 个人网站模板</a></li>
-      <li><a href="/" title="免费收录网站搜索引擎登录口大全" target="_blank">免费收录网站搜索引擎登录口大全</a></li>
-      <li><a href="/" title="做网站到底需要什么?" target="_blank">做网站到底需要什么?</a></li>
-      <li><a href="/" title="企业做网站具体流程步骤" target="_blank">企业做网站具体流程步骤</a></li>
-      <li><a href="/" title="建站流程篇――教你如何快速学会做网站" target="_blank">建站流程篇――教你如何快速学会做网站</a></li>
-      <li><a href="/" title="box-shadow 阴影右下脚折边效果" target="_blank">box-shadow 阴影右下脚折边效果</a></li>
-      <li><a href="/" title="打雷时室内、户外应该需要注意什么" target="_blank">打雷时室内、户外应该需要注意什么</a></li>
-    </ul>
-    <h3 class="ph">
-      <p>点击<span>排行</span></p>
-    </h3>
-    <ul class="paih">
-      <li><a href="/" title="Column 三栏布局 个人网站模板" target="_blank">Column 三栏布局 个人网站模板</a></li>
-      <li><a href="/" title="withlove for you 个人网站模板" target="_blank">with love for you 个人网站模板</a></li>
-      <li><a href="/" title="免费收录网站搜索引擎登录口大全" target="_blank">免费收录网站搜索引擎登录口大全</a></li>
-      <li><a href="/" title="做网站到底需要什么?" target="_blank">做网站到底需要什么?</a></li>
-      <li><a href="/" title="企业做网站具体流程步骤" target="_blank">企业做网站具体流程步骤</a></li>
-    </ul>
-    <h3 class="links">
-      <p>友情<span>链接</span></p>
-    </h3>
-    <ul class="website">
-      <li><a href="/">个人博客</a></li>
-      <li><a href="/">谢泽文个人博客</a></li>
-      <li><a href="/">3DST技术网</a></li>
-      <li><a href="/">思衡网络</a></li>
-    </ul> 
-    </div>  
-    <!-- Baidu Button BEGIN -->
-    <div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare"><a class="bds_tsina"></a><a class="bds_qzone"></a><a class="bds_tqq"></a><a class="bds_renren"></a><span class="bds_more"></span><a class="shareCount"></a></div>
-    <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6574585" ></script> 
-    <script type="text/javascript" id="bdshell_js"></script> 
-    <script type="text/javascript">
-document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
-</script> 
-    <!-- Baidu Button END -->   
-    <a href="/" class="weixin"> </a></aside>
-</article>
-<footer>
-    <p> <a href="http://user.qzone.qq.com/731556624" target="_blank">Design by Liliang </a> 鄂ICP备15021396号 <a href="loginform.action"> 管理登陆</a></p>
 
-</footer>
-<script src="js/silder.js"></script>
+  <div id="container"  class="board" style="margin: 30px auto; visibility: hidden">
+    <div id="number-show" class="board">
+      <div id="number-show-number" class="number-show-box"> </div>
+      <div id="number-show-score" class="number-show-box" style="color: #595;"> </div>
+      <div id="number-show-ajax" class="number-show-box" style="color: #595; bottom: 34px; margin: 0 0; line-height: 20px; position: absolute; width: 600px; font-size: 25px; color: #464"> </div>
+      <div id="number-show-descriptions" charset="UTF-8" class="number-show-box" style=" line-height:50px; margin: 0 auto;"> </div>
+      <div id="number-show-hint" charset="UTF-8">Click to continue</div>
+    </div>
+
+    <div id="game-area" class="board">
+      <a id="manual-game-over" class="mod-select" style="position:absolute; top: 5px; right: 5px; z-index:9999">结束游戏</a>
+      <a id="game-mode-hint" style="position:absolute; top: 35px; right: 14px; z-index:9999; font-size: 17px; color: #686"> </a>
+
+      <div class="score" style="z-index: 4000; top: 0px">0</div>
+      <progress id="progressbar" value="100" max="100" style="position: absolute; left:53px; top: 75px; width: 456px;"></progress> 
+      <div id="game-count-down" style="color: #454; position: absolute; font-size: 15px; font-weight: bold; left:508px; top: 75px; width: 40px; text-align: right">60</div> 
+      <div id="game-area-hint" charset="UTF-8" style="font-size:20px; width:600px; position: absolute; bottom: 19px; color:#787; text-align:center"></div>
+    </div>
+
+
+    <div id="game-over-screen" class="board" style="z-index:5001;">
+      <div id ="game-over-mode-hint" style="font-size:40px; margin: 0px auto; text-align: center; color: #789; ">Game Over</div>
+      <div style="font-size:70px; margin: 50px auto; text-align: center; color: #789">Game Over</div>
+      <div style="font-size:50px; margin: 50px auto; text-align: center; color: #784">Your score is </div>
+      <div id="ocd-hint" style="font-size:50px; margin: 120px auto; text-align: center; color: #784; font-size: 25px;"></div>
+      <div class="score" style="top:350px">
+        0
+      </div>
+
+<!--       <div id="game-over-nan" charset="UTF-8" style="background: url(background/old_map.png) repeat; color:#524; height: 35px; box-shadow: 0px 0px 5px #888; cursor: pointer; bottom: 155px"> 我是南南</div> -->
+
+      <a id="game-over-share-anchor" href="#" target=_blank>
+        <div id="game-over-share" charset="UTF-8" style="background: url(background/old_map.png) repeat; color:#524; height: 35px; box-shadow: 0px 0px 5px #888; cursor: pointer;"> 分享到人人网</div>
+      </a>
+
+      <div id="game-over-other" charset="UTF-8" style="background: url(background/old_map.png) repeat; color:#524; height: 35px; box-shadow: 0px 0px 5px #888; cursor: pointer"> 试试别的模式</div>
+
+      <div id="game-over-hint" charset="UTF-8" style="background: url(background/old_map.png) repeat; color:#524; height: 35px; box-shadow: 0px 0px 5px #888; cursor: pointer"> 再玩一次</div>
+
+    </div>
+
+    <div id="welcome-screen" class="board" style="z-index: 5002">
+      <div style="font-size:130px; margin: 15px auto 0; height:140px">数非数</div>
+      <div id="welcome-screen-user-count" style="font-size:20px; margin: 20px auto 50px; width:600px; height: 30px"></div>
+      <div style='font-size:30px; '><a href='https://github.com/IteratorAdvance/iteratoradvance.github.io' style='text-decoration: none; color: #787' target=_blank> Fork me on github!</a></div>
+      <div style="font-size:26px; margin: 5px auto 0px">现在可通过<b>NotANumber.tk</b>访问</div>
+      <div style="font-size:34px; margin: 0px auto 10px">感谢基友们的测试与指导</div>
+      <div style="font-size:26px; ">在计算机/iPad以获得更好的体验</div>
+      <div style="font-size:22px; ">在计算机上请进入全屏模式并开启声音</div>
+      <div style="font-size:24px; ">暂不支持Firefox;     iPad上请使用竖屏</div>
+      <a id="mod-select-classic" class="mod-select" style="margin: 0px 0 0 115px ">经典模式</a>
+      <a id="mod-select-advanced" class="mod-select">进阶模式</a>
+      <a id="mod-select-OCD" class="mod-select">消除模式</a>
+      <a id="mod-select-endless" class="mod-select">无尽模式</a>
+      <div id="mod-explanation" style="font-size:18px; margin: 0px auto; color: #787"></div>
+      <div id="button-game-start" style="font-size:68px; margin: 0px auto; cursor: pointer;">Click to start</div>
+    </div>
+
+
+    <div id="nan-screen" class="board" style="z-index: 1000;">
+      <div style="font-size:34px; margin: 30px auto 0 0">LOVE IS NOT A NUMBER</div>
+      <div style="font-size:54.3px; margin: 0px auto 0 0">Happy Birthday</div>
+      <div style="font-size:109px; margin: 0px 0px 100px; height: 110px; vertical-align: top;">Nannan</div>
+      <div class="right-aligned-text" style="font-size:29px;">Best wishes from Mengmeng</div>
+      <div id="nan-player-count" class="right-aligned-text" style="font-size:20px;"></div>
+      <div class="mod-select-button"> </div>
+      <div style="font-size:48px; margin: 70px auto">Click to play again<div>
+    </div>
+
+  </div>
+  
+
+  
 </body>
 </html>
-
