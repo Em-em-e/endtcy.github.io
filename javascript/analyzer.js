@@ -672,27 +672,27 @@
       });
       this.newNumber({
         number: 59,
-        description: "挂科啦",
+        description: "恭喜挂科",
         score: 50
       });
       this.newNumber({
-        number: 63,
-        description: "南南的生日",
+        number: 54,
+        description: "小糊的生日",
         score: 200
       });
       this.newNumber({
-        number: 603,
-        description: "南南的生日",
-        score: 200
+        number: 504,
+        description: "小糊的生日",
+        score: 300
       });
       this.newNumber({
-        number: 950603,
-        description: "南南的生日",
-        score: 1000
+        number: 930504,
+        description: "小糊的生日",
+        score: 2000
       });
       this.newNumber({
-        number: 19950603,
-        description: "南南的生日",
+        number: 19930504,
+        description: "小糊的生日",
         score: 10000
       });
       this.newNumber({
@@ -706,7 +706,7 @@
         score: 70
       });
       this.newNumber({
-        number: 211,
+        number: 406,
         description: "开发者的狗窝",
         score: 70
       });
@@ -727,7 +727,7 @@
       });
       this.newNumber({
         number: 99,
-        description: "学霸你够了",
+        description: "学霸你再加油",
         score: 70
       });
       this.newNumber({
@@ -773,12 +773,12 @@
       this.newNumber({
         number: 520,
         description: "爱的誓言",
-        score: 270
+        score: 520
       });
       this.newNumber({
         number: 521,
         description: "爱的誓言",
-        score: 270
+        score: 521
       });
       this.newNumber({
         number: 23,
@@ -810,6 +810,16 @@
         description: "一小时的秒数",
         score: 20
       });
+      this.newNumber({
+          number: 2017,
+          description: "马上就过去了",
+          score: 20
+        });
+      this.newNumber({
+          number: 120901,
+          description: "小糊的学号",
+          score: 5000
+        });
     }
 
     meaningfulNumberSet.prototype.newNumber = function(num) {
