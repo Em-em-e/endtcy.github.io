@@ -1,1 +1,0 @@
-Patterns are from www.subtlepatterns.com.
